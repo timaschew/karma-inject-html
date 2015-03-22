@@ -1,0 +1,19 @@
+{
+  "name": "karma-inject-html",
+  "version": "0.0.1",
+  "description": "inject html markup automatically for each test",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timaschew/karma-inject-html.git"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "preprocessor",
+    "html",
+    "inject"
+  ],
+  "author": "Anton Wilhelm",
+  "license": "ISC"
+}
