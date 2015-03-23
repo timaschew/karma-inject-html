@@ -1,7 +1,7 @@
 # karma-inject-html
 
 This karma plugin is useful when you switching to karma and don't want to rewrite
-all your tests because karma don't provide a automatically HTML page injection for your tests.
+all your tests because karma don't provide an automatically HTML page injection for your tests.
 
 You can inject markup from a file or you can write the markup directly into the karma config.
 
