@@ -5,6 +5,7 @@ var appendToBody = function(template) {
     var selector = 'body';
     template = template.replace(/\n/g,'');
     template = template.replace(/"/g, "'");
+    // TODO BUG: this template is injected multiple times, a marking and removing existing elements it not working
     return 'var __kih_tmpl=document.createElement("div");document.body.appendChild(__kih_tmpl); __kih_tmpl.outerHTML = "' + template + '";';
 };
 
